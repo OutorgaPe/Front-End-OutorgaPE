@@ -1,0 +1,75 @@
+#alterar {
+    display: none;
+    /*  display: none; */
+    /*  display: flex; */
+    flex-direction: column;
+    width: 96vw;
+    height: 90vh;
+    background-color: white;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+
+}
+
+#alterar h2 {
+    margin-bottom: 20px;
+}
+
+#alterar form {
+    display: flex;
+    flex-direction: column;
+}
+
+#alterar label {
+    margin-bottom: 5px;
+}
+
+#alterar input[type="text"],
+#alterar input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#alterar form {
+    gap: 6vh;
+}
+
+#alterar form fieldset {
+    width: 92vw;
+
+}
+
+#alterar form fieldset input {
+    width: 20vw;
+    margin-right: 6vw;
+}
+
+#alterar form fieldset fieldset {
+    border: none;
+
+
+}
+
+#alterar form button {
+    margin-top: 5vw;
+}
+
+#alterar button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#alterar button:hover {
+    background-color: #45a049;
+}
